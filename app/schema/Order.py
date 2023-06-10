@@ -1,8 +1,8 @@
 from pydantic import BaseModel
-
+from typing import List
 
 class OrderInput(BaseModel):
-    products_id: list[int]
+    products_id: List[int]
     customer_name: str
     address: str
 
