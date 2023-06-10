@@ -1,0 +1,21 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/products/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/products/1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/order/calculate/?products_id=1&products_id=2&products_id=3
+Accept: application/json
+
+###
